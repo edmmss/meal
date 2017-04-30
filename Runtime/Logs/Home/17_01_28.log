@@ -1,0 +1,1116 @@
+[ 2017-01-28T11:34:35+08:00 ] 192.168.0.32 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0008s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=54 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-01-28T11:34:39+08:00 ] 192.168.0.171 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=50 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-01-28T11:35:09+08:00 ] 192.168.0.32 /meal/index.php/Home/User/editPass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0006s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-01-28T11:35:09+08:00 ] 192.168.0.32 /meal/index.php/Home/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-01-28T11:35:22+08:00 ] 192.168.0.32 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=54 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-01-28T11:35:33+08:00 ] 192.168.0.32 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0022s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0008s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=54 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-28T11:36:30+08:00 ] 192.168.0.32 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=54 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-01-28T11:37:28+08:00 ] 192.168.0.31 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-01-28T11:37:28+08:00 ] 192.168.0.31 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-01-28T11:37:38+08:00 ] 192.168.0.31 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `meal_user` WHERE `username` = '陈彬' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-01-28T11:37:40+08:00 ] 192.168.0.31 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [2] Illegal string offset 'data' /data/hunfu/html/meal/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [8] Uninitialized string offset: 0 /data/hunfu/html/meal/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [2] Illegal string offset 'total' /data/hunfu/html/meal/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 191 行.
+NOTIC: [8] Uninitialized string offset: 0 /data/hunfu/html/meal/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 191 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-28T11:38:15+08:00 ] 192.168.0.31 /meal/index.php/Home/Index/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0007s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `status` FROM `meal_system` WHERE ( id=121 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 91 行.
+NOTIC: [8] Undefined variable: endSql /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: INSERT INTO `meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`,`system_id`) VALUES ('9.5', '瘦肉粉（小） (9.5)', '1', '9.5', '1485574695', '2', '121'),('8', '香辣焗翅 (8)', '1', '8', '1485574695', '2', '121') [ RunTime:0.0003s ]
+SQL: UPDATE meal_user SET money = money - 17.5 WHERE id = 2 [ RunTime:0.0002s ]
+
+[ 2017-01-28T11:38:17+08:00 ] 192.168.0.31 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0007s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-01-28T11:40:35+08:00 ] 192.168.0.171 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0006s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-28T11:40:41+08:00 ] 192.168.0.171 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=50 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-01-28T11:40:47+08:00 ] 192.168.0.171 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=50 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 49 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 121 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 121 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+

@@ -1,0 +1,55 @@
+<extend name="Public:base" />
+<block name='content'>
+	 <div class="admin-content">
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">增添用户</strong></div>
+    </div>
+
+    <hr/>
+
+    <div class="am-g">
+      <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8"></div>
+      <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+        <form class="am-form am-form-horizontal" action="{:U('Admin/User/addUser')}" method='post'>
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label">用户名</label>
+            <div class="am-u-sm-9">
+              <input type="text" name='username' id="user-name" placeholder="用户名">
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label">起始余额</label>
+            <div class="am-u-sm-9">
+              <input type="number" id="user-name" name='money' placeholder="起始余额" value='0'>
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label">角色</label>
+            <div class="am-u-sm-4" style='float:left'>
+            	<select name='role'>
+            		<option value='0'>--请选择--</option>
+            		<option value='1'>订餐员</option>
+            		<option value='2'>普通员工</option>
+            	</select>
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label"></label>
+            <div class="am-u-sm-8" style='float:left;color:red'>新增用户默认密码为 123456
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <div class="am-u-sm-9 am-u-sm-push-3">
+              <a href="{:U('Admin/User/index')}" type="button" class="am-btn am-btn-primary">返回</a>
+              <input type="submit" class="am-btn am-btn-primary" value='保存修改'>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</block>

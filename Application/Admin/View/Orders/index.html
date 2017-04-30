@@ -1,0 +1,167 @@
+<extend name="Public:base" />
+<block name="content">
+	  <div class="admin-content">
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">食物订单列表</strong></div>
+    </div>
+
+    <div class="am-g">
+      <div class="am-u-md-6 am-cf">
+        <div class="am-fl am-cf">
+          <div class="am-btn-toolbar am-fl">
+            <div class="am-btn-group am-btn-group-xs">
+              <a type="button" id='del' class="am-btn am-btn-default"><span class="am-icon-plus"></span> 批量删除 </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <form action="{:U('Admin/Orders/index')}" method='get'>
+<!--       <input name='m' value='Admin' style='display:none'>
+      <input name='c' value='Orders' style='display:none'>
+      <input name='a' value='index' style='display:none'> -->
+<!--   	  <div class="am-form-group am-margin-left am-fl">
+            <select name="role" style="height:40px;width:130px">
+              <option value="">角色分类</option>
+              <option value="1" <?php echo $_GET['role'] == '1'? 'selected':''?>>订餐员</option>
+              <option value="2" <?php echo $_GET['role'] == '2'? 'selected':''?>>普通成员</option>
+            </select>
+      </div> -->
+      <div class="am-u-md-3 am-cf">
+        <div class="am-fr">
+          <div class="am-input-group am-input-group-sm">
+            <input type="text" class="am-form-field username" value='<?php echo !empty($_GET['username'])? $_GET['username'] : ''?>' placeholder="用户名" name='username'>
+                <span class="am-input-group-btn">
+                  <input value='搜索' class="am-btn am-btn-default" id='sub' type="submit">
+                </span>
+          </div>
+        </div>
+      </div>
+      </form>
+    </div>
+
+    <div class="am-g">
+      <div class="am-u-sm-12">
+        <form class="am-form">
+          <table class="am-table am-table-striped am-table-hover table-main">
+            <thead>
+              <tr>
+                <th class="table-check"><input type="checkbox" name="" id="ck"></th>
+                <th class="table-title">食物订单ID</th>
+                <th class="table-title">用户名</th>
+                <th class="table-title">食物名</th>
+                <th class="table-type">单价</th>
+                <th class="table-type">数量</th>
+                <th class="table-author">总价</th>
+                <th class="table-author">购买时间</th>
+                <th class="table-date">操作</th>
+              </tr>
+          </thead>
+          <tbody>
+          <foreach name='row' item='v'>
+            <tr>
+              <td><input value="{$v['id']}" type="checkbox" name="" class='sck'></td>
+              <td>{$v['id']}</td>
+              <td>{$v['username']}</a></td>
+              <td>{$v['foodname']}</a></td>
+              <td>{$v['price']}</td>
+              <td>{$v['num']}</td>
+              <td>{$v['total']}</td>
+              <td>{$v['addtime']}</td>
+              <td>
+                <div class="am-btn-toolbar">
+                  <div class="am-btn-group am-btn-group-xs">
+                    <a style='background:white' href="{:U('Admin/Orders/delete', ['id'=>$v['id']])}" class="del am-btn am-btn-default am-btn-xs am-text-danger"><span class="am-icon-trash-o"></span> 删除</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+        </foreach>
+          </tbody>
+        </table>
+          <div class="am-cf">
+  共 <font id='num'>
+    <if condition="$row eq false">
+      0
+    <else/>
+      {$row[0]['count']}
+    </if>
+    </font> 条记录
+                  <div class="am-fr">             
+                  <ul class="am-pagination">
+                   {$row[0][btn]}
+                  </ul>
+                </div>
+          </div>
+          <hr />
+          <p>注：.....</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  	<script>
+      $('.am-pagination a').wrap('<li></li>');
+      $('.am-pagination p').wrap('<li></li>');
+      $('.am-pagination').find('#page_num').unwrap('p').wrap('<li></li>');
+      // $('#page_num').unwrap('<li></li>');
+
+      //分页跳转
+      $('#page_num').blur(function(){
+          var url = $('.gopage').attr('href');
+          var strs = url.substr(0);          
+          var value = this.value;
+          //最大分页数
+          var all = $('.all').attr("title");
+          //将字符转化为数字
+          var i = parseFloat(all);
+        if (!isNaN(value)) {
+          if (value >= i) {
+            value = i;
+          } else if (value <= 1){
+            value = 1;
+          }   
+          value = Math.ceil(value); 
+        } else {
+          value = '';
+        }
+        var nuwurl = strs + value ;
+        //获取查询条件，如果有带查询条件就带上
+        var username = $('.username').val();
+        if (username != '') {
+          //url模式为 2
+          nuwurl += '/username/'+ username ;
+        }
+        $(".gopage").attr("href",nuwurl);
+      });
+
+      //批量删除
+      $('#ck').click(function(){
+        $(".sck").prop('checked',this.checked);
+      }); 
+
+      $('#del').click(function(){
+        val = [];
+        $("input:checked").each(function(i){
+          val[val.length] = $("input:checked").eq(i).val();
+        });
+        str = val.join(',');
+        $.ajax({
+          url:  "{:U('Admin/Orders/batchDetele')}",
+          type: 'post',
+          data: "ids="+str,
+          success: function(res) {
+            if (res) {
+              alert('删除成功');
+              window.location.href = "{:U('Admin/Orders/index')}";
+            } else {
+              alert('操作失败');
+              window.location.href = "{:U('Admin/Orders/index')}";
+            }
+          }
+        });
+      });
+  	</script>
+
+</block>

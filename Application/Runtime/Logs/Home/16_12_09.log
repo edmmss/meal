@@ -1,0 +1,27 @@
+[ 2016-12-09T11:19:37+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : condition="$v2['image_path']" eq "$v2['image_path']"
+
+[ 2016-12-09T15:17:01+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name="<?php echo ($v['standard']); ?
+
+[ 2016-12-09T15:17:50+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name="<?php echo ($v['standard']); ?
+
+[ 2016-12-09T15:18:11+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name="<?php echo ($v['standard']); ?
+
+[ 2016-12-09T15:19:33+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name="<?php echo ($v['standard']); ?
+
+[ 2016-12-09T15:19:33+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name="<?php echo ($v['standard']); ?
+
+[ 2016-12-09T15:28:33+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name='{v['standard']}' item='v2'
+
+[ 2016-12-09T15:29:20+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name="<?php echo ($v['standard']); ?
+
+[ 2016-12-09T15:37:39+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : name="<?php echo ($v['standard']); ?
+

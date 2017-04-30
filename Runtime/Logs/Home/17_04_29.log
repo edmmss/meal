@@ -1,0 +1,1893 @@
+[ 2017-04-29T10:00:57+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-04-29T10:00:57+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-04-29T10:00:58+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:01:02+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `meal_user` WHERE `username` = 'cb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT id, status, merchantmumber 
+                          FROM meal_system 
+                          ORDER BY id DESC 
+                          LIMIT 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:03:26+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:03:26+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:03:26+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:03:30+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `meal_user` WHERE `username` = 'cb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT id, status, merchantmumber 
+                          FROM meal_system 
+                          ORDER BY id DESC 
+                          LIMIT 1 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:04:32+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+
+[ 2017-04-29T10:05:01+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0580s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0250s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0010s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resFoodsData E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-29T10:05:02+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:06:04+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0030s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0010s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php:288) E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php:288) E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php:288) E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-29T10:07:17+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+
+[ 2017-04-29T10:07:17+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:07:17+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:07:17+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-29T10:07:17+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0020s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resFoodsData E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-29T10:07:18+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0010s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resFoodsData E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:07:23+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0460s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0020s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php:288) E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php:288) E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php:288) E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:07:34+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0020s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:08:49+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0040s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+
+[ 2017-04-29T10:08:49+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0010s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:08:50+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0010s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resMerchantName E:\xampp\htdocs\equip\meal\Application\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-04-29T10:10:02+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+
+[ 2017-04-29T10:10:32+08:00 ] 127.0.0.1 /equip/meal/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0020s ]
+SQL: SELECT id, status, merchantmumber 
+                    FROM meal_system 
+                    ORDER BY id DESC 
+                    LIMIT 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0020s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: dataArt E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 263 行.
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 129
+                    ORDER BY user_id = 1 DESC [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 170 行.
+SQL: SELECT foodname, SUM(num) AS number, SUM(num) * price AS total
+                    FROM meal_orders  
+                    WHERE system_id = 129
+                    GROUP BY foodname
+                    ORDER BY number ASC [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: allTotal E:\xampp\htdocs\equip\meal\Application\Home\Model\OrdersModel.class.php 第 199 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT u.username
+                    FROM meal_orders o 
+                    LEFT JOIN meal_user u ON o.user_id = u.id
+                    WHERE o.system_id = 129 AND u.status = 1 
+                    GROUP BY o.user_id [ RunTime:0.0010s ]
+SQL: SELECT username
+                        FROM meal_user 
+                        WHERE status = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-29T10:15:37+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-29T10:15:38+08:00 ] 127.0.0.1 /equip/meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+

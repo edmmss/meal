@@ -1,0 +1,43 @@
+<extend name="Public:base" />
+<block name="sidebar">
+</block>
+<block name="content">
+   <div class="admin-content">
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">填写商家编号</strong></div>
+    </div>
+
+    <hr/>
+
+    <div class="am-g">
+      <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8"></div>
+      <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+        <form class="am-form am-form-horizontal" action="{:U('Home/Index/system')}" method='post'>
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label">商家编号</label>
+            <div class="am-u-sm-9" >
+              <input type="number" id="user-name" name='merchantMumber' placeholder="商家编号（目前仅支持 ‘饿了么’ 的食物）">
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label"></label>
+            <div class="am-u-sm-9" >
+              <div>如果其他订餐员已经开启订餐，请您直接点击按钮进入</div>
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <label for="user-name" class="am-u-sm-3 am-form-label"></label>
+          </div>
+
+          <div class="am-form-group">
+            <div class="am-u-sm-9 am-u-sm-push-3">
+              <input type="submit" class="am-btn am-btn-primary" value='提交进入订餐'>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</block>

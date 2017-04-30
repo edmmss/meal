@@ -1,0 +1,1130 @@
+[ 2017-01-16T10:52:55+08:00 ] 192.168.0.31 /meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-16T10:52:55+08:00 ] 192.168.0.31 /meal/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-01-16T10:53:02+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0005s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-01-16T10:53:02+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-01-16T10:53:04+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-01-16T10:53:16+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `meal_user` WHERE ( username='胡兆鑫' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `meal_user` (`username`,`money`,`role`,`addtime`,`password`,`status`) VALUES ('胡兆鑫','0','2','1484535195','$2y$10$kE31WrBddZThMXJqGybWde1r9L3uYqNotaIyG7SDkYqDGtyz9hw56','1') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+
+[ 2017-01-16T10:53:18+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0002s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-16T11:37:04+08:00 ] 192.168.0.100 /meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-01-16T11:37:04+08:00 ] 192.168.0.100 /meal/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2017-01-16T11:37:08+08:00 ] 192.168.0.100 /meal/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-01-16T11:37:08+08:00 ] 192.168.0.100 /meal/index.php/Admin/index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+
+[ 2017-01-16T11:37:09+08:00 ] 192.168.0.100 /meal/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-16T16:36:58+08:00 ] 192.168.0.31 /meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-16T16:36:58+08:00 ] 192.168.0.31 /meal/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+
+[ 2017-01-16T16:37:08+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-16T16:37:08+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-01-16T16:37:12+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/index/p/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 220, 10 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-01-16T16:37:12+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/index/p/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+
+[ 2017-01-16T16:37:15+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/index/p/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 210, 10 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-16T16:37:16+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/index/p/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 220, 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-16T16:37:18+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-16T16:37:20+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0001s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-16T16:37:20+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2017-01-16T16:42:30+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-01-16T16:42:33+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0000s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-16T16:42:51+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/pay/id/63.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `meal_user` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-01-16T16:42:51+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/pay/id/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-01-16T16:42:53+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0000s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-16T16:42:58+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0000s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 10, 10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-16T16:42:59+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index/p/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+
+[ 2017-01-16T16:43:01+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0001s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-01-16T16:43:04+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/derate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-01-16T16:43:06+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/derate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-01-16T16:43:08+08:00 ] 192.168.0.31 /meal/index.php/Admin/Orders/derate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-01-16T16:43:11+08:00 ] 192.168.0.31 /meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0000s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-01-16T17:55:40+08:00 ] 192.168.0.100 /meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-01-16T17:55:40+08:00 ] 192.168.0.100 /meal/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+
+[ 2017-01-16T17:55:43+08:00 ] 192.168.0.100 /meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0001s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-16T17:55:43+08:00 ] 192.168.0.100 /meal/index.php/Admin/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-01-16T17:55:45+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-16T17:55:45+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+
+[ 2017-01-16T17:57:48+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 10, 10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-01-16T17:57:48+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index/p/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-01-16T18:01:40+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-01-16T18:01:50+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 10, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-01-16T18:57:48+08:00 ] 192.168.0.161 /meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-01-16T18:57:48+08:00 ] 192.168.0.161 /meal/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-01-16T18:57:51+08:00 ] 192.168.0.161 /meal/index.php/Admin/Orders/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-16T18:57:51+08:00 ] 192.168.0.161 /meal/index.php/Admin/Orders/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2017-01-16T18:58:45+08:00 ] 192.168.0.100 /meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-01-16T18:58:45+08:00 ] 192.168.0.100 /meal/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+
+[ 2017-01-16T18:58:48+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-16T18:58:48+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-16T18:58:53+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-16T18:58:55+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 10, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-01-16T18:58:55+08:00 ] 192.168.0.100 /meal/index.php/Admin/Orders/index/p/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-01-16T19:00:08+08:00 ] 192.168.0.161 /meal/index.php/Admin/Orders/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' /data/hunfu/html/meal/ThinkPHP/Library/Think/Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 10, 10 [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' /data/hunfu/html/meal/Runtime/Cache/Admin/d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-16T19:00:08+08:00 ] 192.168.0.161 /meal/index.php/Admin/Orders/index/p/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+

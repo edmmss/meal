@@ -1,0 +1,278 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--标题块-->
+  <title><block name="title">后台管理系统</block></title>
+  <meta name="description" content="这是一个 index 页面">
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="stylesheet" href="__PUBLIC__/admin/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+  <!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/admin/js/jquery.min.js"></script>
+<script src="__PUBLIC__/admin/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/jquery-1.7.2.min.js"></script>
+<!--<![endif]-->
+<script src="__PUBLIC__/admin/js/app.js"></script>
+  <block name="file"></block>
+</head>
+<body>
+<block name="header">
+    <header class="am-topbar admin-header">
+      <div class="am-topbar-brand">
+        <strong>悦娱游戏 /</strong> <small>订餐管理系统</small>
+      </div>
+      <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+      <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+        <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+          <li></li>
+          <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+              <span class="am-icon-users"></span> 餐费减免 <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+              <li><a href="{:U('Admin/Orders/derate')}"><span class="am-icon-cog"></span> 减免页 </a></li>
+            </ul>
+          </li>
+          <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+              <span class="am-icon-users"></span> {$Think.session.homeMealInfo.username} <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+              <li><a href="{:U('Home/Index/index')}"><span class="am-icon-cog"></span> 前台点餐 </a></li>
+              <li><a href="{:U('Home/Login/logout')}"><span class="am-icon-power-off"></span> 退出</a></li>
+            </ul>
+          </li>
+          <li><a href="javascript:;" id="admin-fullscreen"><span class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+        </ul>
+      </div>
+    </header>
+</block>
+
+<!--这个div包含整体,勿修改!!!!!!!!!!!!!!!!!-->
+<div class="am-cf admin-main">
+  <!-- sidebar start -->
+  <block name="sidebar">
+         <div class="admin-sidebar">
+         
+          <!--导航栏块-->
+         <block name="list">
+              <ul class="am-list admin-sidebar-list">
+                <li><a href="{:U('index/index')}"><span class="am-icon-home"></span> 首页</a></li>
+                <li info="admin-User">
+                  <a class="am-cf am-collapsed" data-am-collapse="{target: '#list-User'}"><span class="am-icon-bars"></span> 用户管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+                  <ul class="am-list am-collapse admin-sidebar-sub" id="list-User" style="">
+                    <li id="uselist"><a href="{:U('Admin/User/index')}" class="am-cf"><span class="am-icon-table"></span>用户列表<span class="am-badge am-badge-secondary am-margin-right am-fr"></span></a></li>
+                  </ul>
+                </li>
+
+                <li info="admin-Orders">
+                  <a class="am-cf am-collapsed" data-am-collapse="{target: '#list-Orders'}"><span class="am-icon-comments-o"></span> 食物订单管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+                  <ul class="am-list am-collapse admin-sidebar-sub" id="list-Orders" style="">
+                    <li id="uselist"><a href="{:U('Admin/Orders/index')}" class="am-cf"><span class="am-icon-table"></span> 食物订单列表<span class="am-badge am-badge-secondary am-margin-right am-fr"></span></a></li>
+                    <!-- <li><a href="admin-gallery.html"><span class="am-icon-th"></span> 相册页面</a></li>
+                    <li><a href="admin-log.html"><span class="am-icon-calendar"></span> 系统日志</a></li>
+                    <li><a href="admin-404.html"><span class="am-icon-bug"></span> 404</a></li> -->
+                  </ul>
+                </li>           
+ 
+                <li><a href="{:U('Home/Login/logout')}"><span class="am-icon-sign-out"></span> 注销</a></li>
+
+              </ul>
+          </block>
+            
+              <!--公告栏块-1-->
+            <block name="notice1">
+                    <div class="am-panel am-panel-default admin-sidebar-panel">
+                      <div class="am-panel-bd">
+                        <p><span class="am-icon-bookmark"></span> 公告1</p>
+                        <p>这里写公告之类的信息</p>
+                      </div>
+                    </div>
+            </block>
+
+              <!--公告栏块-2-->
+            <block name="notice2">
+                  <div class="am-panel am-panel-default admin-sidebar-panel">
+                    <div class="am-panel-bd">
+                      <p><span class="am-icon-tag"></span> 公告2</p>
+                      <p>这里写公告之类的信息</p>
+                    </div>
+                  </div>
+            </block>
+  
+        </div>
+  </block>
+  <!-- sidebar end -->
+  <script>
+      // 控制器： 不同模块展开不同list
+      var str = "__CONTROLLER__";
+                    var newstr = str.split('/').pop();
+                    console.log(str);
+                    $('li[info=admin-'+newstr+']').children().eq(0).removeClass('am-collapsed');
+                    $('li[info=admin-'+newstr+']').children().eq(1).addClass('am-in');
+  </script>
+  <!-- 内容模块-->
+  <block name="content">
+          <div class="admin-content">
+            <div class="am-cf am-padding">
+              <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>一些常用模块</small></div>
+            </div>
+            <ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list ">
+              <li><a href="#" class="am-text-success"><span class="am-icon-btn am-icon-file-text"></span><br/>新增页面<br/>2300</a></li>
+              <li><a href="#" class="am-text-warning"><span class="am-icon-btn am-icon-briefcase"></span><br/>成交订单<br/>308</a></li>
+              <li><a href="#" class="am-text-danger"><span class="am-icon-btn am-icon-recycle"></span><br/>昨日访问<br/>80082</a></li>
+              <li><a href="#" class="am-text-secondary"><span class="am-icon-btn am-icon-user-md"></span><br/>在线用户<br/>3000</a></li>
+            </ul>
+
+            <div class="am-g">
+              <div class="am-u-sm-12">
+                <table class="am-table am-table-bd am-table-striped admin-content-table">
+                  <thead>
+                  <tr>
+                    <th>订单号</th>
+                    <th>收件人</th>
+                    <th>状态</th>
+                    <th>下单时间</th>
+                    <th>总金额</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <foreach name="arr" item="v">
+                  <tr>
+                    <td>{$v['id']}</td>
+                    <td>{$v['getman']}</td>
+                    <td>{$v['status']}</td>
+                    </td><td>{$v['addtime']}</td>
+                    <td>{$v['total']}</td>
+                  </tr>
+                  </foreach>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="am-g">
+              <div class="am-u-md-6">
+
+    
+                <!-- <div class="am-panel am-panel-default">
+                  <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-1'}">文件上传<span class="am-icon-chevron-down am-fr" ></span></div>
+                  <div class="am-panel-bd am-collapse am-in" id="collapse-panel-1">
+                    <ul class="am-list admin-content-file">
+                      <li>
+                        <strong><span class="am-icon-upload"></span> Kong-cetian.Mp3</strong>
+                        <p>3.3 of 5MB - 5 mins - 1MB/Sec</p>
+                        <div class="am-progress am-progress-striped am-progress-sm am-active">
+                          <div class="am-progress-bar am-progress-bar-success" style="width: 100%">100%</div>
+                        </div>
+                      </li>
+                      <li>
+                        <strong><span class="am-icon-check"></span> 好人-cetian.Mp3</strong>
+                        <p>3.3 of 5MB - 5 mins - 3MB/Sec</p>
+                      </li>
+                      <li>
+                        <strong><span class="am-icon-check"></span> 其实都没有.Mp3</strong>
+                        <p>3.3 of 5MB - 5 mins - 3MB/Sec</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div> -->
+
+                <div class="am-panel am-panel-default">
+                  <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-2'}">友情链接<span class="am-icon-chevron-down am-fr" ></span></div>
+                  <div id="collapse-panel-2" class="am-in">
+                    <table class="am-table am-table-bd am-table-bdrs am-table-striped am-table-hover">
+                      <tbody>
+                      <tr>
+                        <th class="am-text-center"></th>
+                        <th>网址</th>
+                        <th>审核</th>
+                      </tr>
+                      <foreach name="farr" item="v">
+                      <tr>
+                        <td class="am-text-center"></td>
+                        <td>{$v['linkname']}</td>
+                        <td>{$v['status']}</td>
+                      </tr>
+                      </foreach>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+              </div>
+              <div class="am-u-md-6">
+                <div class="am-panel am-panel-default">
+                  <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-4'}">评论 <span class="am-icon-chevron-down am-fr" ></span></div>
+                  <div id="collapse-panel-4" class="am-panel-bd am-collapse am-in">
+                    <ul class="am-list admin-content-task">
+                      <li>
+                      <foreach name="carr" item="v">
+                        <div class="admin-task-bd">
+                          {$v['comments']}
+                        </div>
+                        </foreach>
+                        <div class="am-cf">
+                          <div class="am-btn-toolbar am-fl">
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="am-panel am-panel-default">
+                  <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-3'}">最近留言<span class="am-icon-chevron-down am-fr" ></span></div>
+                  <div class="am-panel-bd am-collapse am-in am-cf" id="collapse-panel-3">
+                    <ul class="am-comments-list admin-content-comment">
+                    
+                      <li class="am-comment">
+                        <a href="#"></a>
+                        <foreach name="larr" item="v">
+                        <div class="am-comment-main">
+                          <header class="am-comment-hd">
+                            <div class="am-comment-meta"><span href="#" class="am-comment-author">{$v['username']}</span> 评论于 <time>{$v['addtime']}</time></div>
+                          </header>
+
+                          <div class="am-comment-bd"><p>{$v['content']}</p>
+                          </div>
+                        </div>
+                        <br/>
+                        </foreach>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content end -->
+  </block>
+</div>
+
+<footer>
+  <hr>
+  <p class="am-padding-left">© 悦娱游戏<a href="http://www.mycodes.net/" target="_blank"></a></p>
+</footer>
+    
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/admin/js/jquery1.11.1.min.js"></script>
+<script src="__PUBLIC__/admin/js/modernizr.js"></script>
+<script src="__PUBLIC__/admin/js/polyfill/rem.min.js"></script>
+<script src="__PUBLIC__/admin/js/polyfill/respond.min.js"></script>
+<script src="__PUBLIC__/admin/js/amazeui.legacy.js"></script>
+<![endif]-->
+
+
+</body>
+</html>

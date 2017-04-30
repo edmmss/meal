@@ -1,0 +1,383 @@
+[ 2017-02-03T17:42:10+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:42:10+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:42:24+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-03T17:42:28+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:42:39+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0010s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-03T17:42:39+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-03T17:42:41+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/Orders/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:42:41+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/Orders/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:42:43+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0010s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:55:09+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/Orders/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(o.id) AS num 
+    					 FROM meal_orders o 
+    					 LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant 上一页 - assumed '上一页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant 下一页 - assumed '下一页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 171 行.
+NOTIC: [8] Use of undefined constant 首页 - assumed '首页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 174 行.
+NOTIC: [8] Use of undefined constant 末页 - assumed '末页' E:\xampp\htdocs\equip\meal\ThinkPHP\Library\Think\Page.class.php 第 177 行.
+SQL: SELECT o.id, u.username, o.foodname, o.price, o.num, o.total, o.addtime 
+    				FROM meal_orders o 
+    				LEFT JOIN meal_user u ON o.user_id = u.id WHERE o.id > 0  ORDER BY o.id DESC LIMIT 0, 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\d70e8667642e23ac9b51b6ef7656a2da.php 第 149 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\d70e8667642e23ac9b51b6ef7656a2da.php 第 150 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\d70e8667642e23ac9b51b6ef7656a2da.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-03T17:55:11+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0000s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 149 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 157 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:58:16+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0010s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 151 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 159 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-03T17:58:36+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0010s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 151 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 159 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:58:38+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0010s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 151 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 159 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-03T17:59:44+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0000s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 151 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 159 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-03T18:04:03+08:00 ] 127.0.0.1 /equip/meal/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(id) AS num 
+    					 FROM meal_user WHERE id > 0  [ RunTime:0.0010s ]
+SQL: SELECT id, username, role, status, addtime, money
+    				FROM meal_user WHERE id > 0  ORDER BY id DESC LIMIT 0, 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 150 行.
+NOTIC: [8] Undefined index: role E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 151 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 158 行.
+NOTIC: [8] Undefined index: money E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 159 行.
+NOTIC: [8] Use of undefined constant btn - assumed 'btn' E:\xampp\htdocs\equip\meal\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

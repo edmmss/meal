@@ -1,0 +1,66 @@
+[ 2017-01-22T11:06:09+08:00 ] 192.168.0.158 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/v1/menu?restaurant_id=): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Error
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 25 行.
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/restaurant/?extras%5B%5D=activity&amp;extras%5B%5D=license&amp;extras%5B%5D=identification&amp;extras%5B%5D=albums&amp;extras%5B%5D=flavors&amp;latitude=23.13324&amp;longitude=113.38605): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 275 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 120 [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 120 [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-22T11:06:09+08:00 ] 192.168.0.158 /meal/index.php/Home/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+

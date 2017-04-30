@@ -1,0 +1,991 @@
+[ 2016-12-12T09:56:02+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:56:23+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:59:18+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:00:44+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:01:26+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:05:13+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:06:19+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:07:03+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:12:30+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:14:05+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-12T10:15:00+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:17:00+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:18:03+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:19:30+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:23:43+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:25:48+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Controller\IndexController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:26:16+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:30:22+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('香滑蒸蛋 (6.5)','13','2','6','1481509821','10') [ RunTime:0.0230s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('酸菜卤肉饭汤套餐 (28.5)','28.5','1','28','1481509822','10')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('酸菜卤肉饭汤套餐 (28.5)','28.5','1','28','1481509822','10')
+
+[ 2016-12-12T10:31:36+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:34:38+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('瘦肉粉（小） (9.5)','9.5','1','9','1481510078','10'),('榨菜牛肉汤套餐 (32.5)','65','2','32','1481510078','10')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('瘦肉粉（小） (9.5)','9.5','1','9','1481510078','10'),('榨菜牛肉汤套餐 (32.5)','65','2','32','1481510078','10')
+
+[ 2016-12-12T10:35:24+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('瘦肉粉（小） (9.5)','9.5','1','9','1481510123','10'),('榨菜牛肉汤套餐 (32.5)','65','2','32','1481510123','10')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('瘦肉粉（小） (9.5)','9.5','1','9','1481510123','10'),('榨菜牛肉汤套餐 (32.5)','65','2','32','1481510123','10')
+
+[ 2016-12-12T10:36:04+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('瘦肉粉（小） (9.5)','9.5','1','9','1481510163','10'),('榨菜牛肉汤套餐 (32.5)','97.5','3','32','1481510163','10') [ RunTime:0.0700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-12T10:45:13+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('香滑蒸蛋 (6.5)','6.5','1','6.5','1481510713','10'),('酸菜卤肉饭汤套餐 (28.5)','57','2','28.5','1481510713','10') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:49:46+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('香滑蒸蛋 (6.5)','13','2','6.5','1481510986','10'),('酸菜卤肉饭汤套餐 (28.5)','28.5','1','28.5','1481510986','10') [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:50:36+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('瘦肉粉（小） (9.5)','9.5','1','9.5','1481511036','10') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:52:13+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('香滑蒸蛋 (6.5)','6.5','1','6.5','1481511133','10'),('酸菜卤肉饭汤套餐 (28.5)','57','2','28.5','1481511133','10') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:53:41+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('香滑蒸蛋 (6.5)','6.5','1','6.5','1481511221','10'),('酸菜卤肉饭汤套餐 (28.5)','57','2','28.5','1481511221','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T11:59:26+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('榨菜牛肉汤套餐 (32.5)','32.5','1','32.5','1481515166','1'),('超值双人餐 (60)','120','2','60','1481515166','1') [ RunTime:0.0020s ]
+
+[ 2016-12-12T11:59:37+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('虫草鸡饭含汤套餐 (32.5)','65','2','32.5','1481515177','1'),('百事可乐 (8)','8','1','8','1481515177','1') [ RunTime:0.0030s ]
+
+[ 2016-12-12T12:00:53+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('鲜辣排骨饭汤套餐 (31.5)','63','2','31.5','1481515253','10'),('冬菇鸡腿饭汤套餐 (28.5)','28.5','1','28.5','1481515253','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T12:04:10+08:00 ] ::1 /meal/
+ERR: XML标签语法错误 : condition="$resPersonOrdersData" neq null
+
+[ 2016-12-12T12:07:00+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('热豆浆 (7)','7','1','7','1481515620','10'),('热豆浆 (7)','7','1','7','1481515620','10') [ RunTime:0.0020s ]
+
+[ 2016-12-12T12:07:22+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+SQL: INSERT INTO `meal_orders` (`foodname`,`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('虫草鸡饭含汤套餐 (32.5)','65','2','32.5','1481515642','10'),('金杏蜜桃汁 (10)','10','1','10','1481515642','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T12:11:39+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T12:12:24+08:00 ] 127.0.0.1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:09:26+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-12T14:16:03+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: userId E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 52 行.
+NOTIC: [8] Undefined variable: userId E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:22:15+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 51 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:23:24+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 51 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-12T14:24:19+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 52 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:25:27+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 52 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:29:41+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: name E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 53 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: name E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 53 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: name E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 53 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: name E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 53 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:30:33+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 54 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 55 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 54 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 55 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:32:03+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:32:42+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:34:46+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 58 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 58 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:35:11+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:35:29+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-12T14:35:55+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 59 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:38:09+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 63 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 64 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [8] Undefined index: total E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 63 行.
+NOTIC: [8] Undefined index: num E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 64 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [8] Undefined index: price E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:38:37+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:39:28+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:40:02+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:40:41+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:41:35+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:42:01+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:42:38+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:46:27+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 54 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 58 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 58 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:47:17+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 54 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 54 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:48:53+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+NOTIC: [2] Division by zero E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:50:32+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:59:21+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\meal\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 115 行.
+
+[ 2016-12-12T15:00:37+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:01:06+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T15:01:53+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\meal\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 115 行.
+
+[ 2016-12-12T15:01:59+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+
+[ 2016-12-12T15:02:26+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\meal\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 115 行.
+
+[ 2016-12-12T15:03:12+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:06:34+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:09:32+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:10:26+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:11:04+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T15:13:26+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\meal\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:14:07+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\meal\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:15:46+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T15:21:39+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('19','2','9.5','1481527299','10'),('13','2','6.5','1481527299','10'),('57','2','28.5','1481527299','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T15:23:06+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+SQL: INSERT INTO `meal_orders` (`total`,`num`,`price`,`addtime`,`user_id`) VALUES ('19','2','9.5','1481527386','10'),('13','2','6.5','1481527386','10'),('57','2','28.5','1481527386','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T15:35:23+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:35:42+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T15:38:55+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:39:10+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:48:07+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T15:48:41+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:49:31+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:50:23+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T15:51:17+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:55:53+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481529353','10'),('120', '超值双人餐 (60)', '2', '60', '1481529353','10'),('64.5', '香汁排骨饭彩豆套餐 (21.5)', '3', '21.5', '1481529353','10') [ RunTime:0.0020s ]
+ERR: :
+ [ SQL语句 ] : INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481529353','10'),('120', '超值双人餐 (60)', '2', '60', '1481529353','10'),('64.5', '香汁排骨饭彩豆套餐 (21.5)', '3', '21.5', '1481529353','10')
+ERR: :
+ [ SQL语句 ] : INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481529353','10'),('120', '超值双人餐 (60)', '2', '60', '1481529353','10'),('64.5', '香汁排骨饭彩豆套餐 (21.5)', '3', '21.5', '1481529353','10')
+
+[ 2016-12-12T15:57:30+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('19', '瘦肉粉（小） (9.5)', '2', '9.5', '1481529450','10'),('13', '香滑蒸蛋 (6.5)', '2', '6.5', '1481529450','10'),('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481529450','10') [ RunTime:0.0030s ]
+ERR: :
+ [ SQL语句 ] : INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('19', '瘦肉粉（小） (9.5)', '2', '9.5', '1481529450','10'),('13', '香滑蒸蛋 (6.5)', '2', '6.5', '1481529450','10'),('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481529450','10')
+ERR: :
+ [ SQL语句 ] : INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('19', '瘦肉粉（小） (9.5)', '2', '9.5', '1481529450','10'),('13', '香滑蒸蛋 (6.5)', '2', '6.5', '1481529450','10'),('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481529450','10')
+
+[ 2016-12-12T15:58:39+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('180', '超值双人餐 (60)', '3', '60', '1481529519','10'),('64.5', '香汁排骨饭彩豆套餐 (21.5)', '3', '21.5', '1481529519','10') [ RunTime:0.0010s ]
+
+[ 2016-12-12T15:59:03+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('13', '香滑蒸蛋 (6.5)', '2', '6.5', '1481529543','10'),('19', '瘦肉粉（小） (9.5)', '2', '9.5', '1481529543','10'),('97.5', '榨菜牛肉汤套餐 (32.5)', '3', '32.5', '1481529543','10') [ RunTime:0.0020s ]
+
+[ 2016-12-12T15:59:33+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('13', '香滑蒸蛋 (6.5)', '2', '6.5', '1481529573','10'),('57', '酸菜卤肉饭汤套餐 (28.5)', '2', '28.5', '1481529573','10'),('19', '瘦肉粉（小） (9.5)', '2', '9.5', '1481529573','10') [ RunTime:0.0040s ]
+
+[ 2016-12-12T16:00:15+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('13', '香滑蒸蛋 (6.5)', '2', '6.5', '1481529615','10'),('19', '瘦肉粉（小） (9.5)', '2', '9.5', '1481529615','10'),('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481529615','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T16:00:26+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('73.5', '虫草花蒸土鸡套饭 (24.5)', '3', '24.5', '1481529626','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T16:09:37+08:00 ] ::1 /meal/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+      ' at line 2
+ [ SQL语句 ] : SELECT 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE o.addtime BETWEEN '1481524777' AND '1481530177'
+
+[ 2016-12-12T16:10:13+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('9.5', '瘦肉粉（小） (9.5)', '1', '9.5', '1481530213','10'),('6.5', '香滑蒸蛋 (6.5)', '1', '6.5', '1481530213','10'),('16', '香辣焗翅 (8)', '2', '8', '1481530213','10'),('6', '热豆浆（大） (6)', '1', '6', '1481530213','10') [ RunTime:0.0030s ]
+
+[ 2016-12-12T16:21:08+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('8', '西兰花 (8)', '1', '8', '1481530868','10'),('6', '紫菜鸡肉卷 (6)', '1', '6', '1481530868','10'),('3', '大白饭 (3)', '1', '3', '1481530868','10'),('19', '五香牛腩粉（小） (19)', '1', '19', '1481530868','10') [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:34:41+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('65', '榨菜牛肉汤套餐 (32.5)', '2', '32.5', '1481531681','10'),('65', '香滑蒸蛋 (6.5)', '10', '6.5', '1481531681','10'),('66.5', '瘦肉粉（小） (9.5)', '7', '9.5', '1481531681','10'),('57', '酸菜卤肉饭汤套餐 (28.5)', '2', '28.5', '1481531681','10') [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:35:11+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('19', '瘦肉粉（小） (9.5)', '2', '9.5', '1481531711','10') [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:35:25+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('9.5', '瘦肉粉（小） (9.5)', '1', '9.5', '1481531725','10') [ RunTime:0.0020s ]
+
+[ 2016-12-12T17:09:12+08:00 ] ::1 /meal/home/Index/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: endSql E:\xampp\htdocs\meal\Application\Home\Model\OrdersModel.class.php 第 81 行.
+SQL: INSERT INTO`meal_orders` (`total`,`foodname`,`num`,`price`,`addtime`,`user_id`) VALUES ('32.5', '榨菜牛肉汤套餐 (32.5)', '1', '32.5', '1481533752','10'),('28.5', '酸菜卤肉饭汤套餐 (28.5)', '1', '28.5', '1481533752','10'),('21.5', '香汁排骨饭彩豆套餐 (21.5)', '1', '21.5', '1481533752','10') [ RunTime:0.0040s ]
+
+[ 2016-12-12T17:31:50+08:00 ] ::1 /meal/Home/Login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2016-12-12T17:40:42+08:00 ] ::1 /meal/Home/Login/login.html
+ERR: 模板不存在:./Application/Home/View/Login/login.html
+
+[ 2016-12-12T17:41:41+08:00 ] ::1 /meal/Home/Login/login.html
+ERR: 模板不存在:./Application/Home/View/Login/login.html
+

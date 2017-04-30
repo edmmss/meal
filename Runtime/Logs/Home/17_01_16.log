@@ -1,0 +1,394 @@
+[ 2017-01-16T18:20:20+08:00 ] 192.168.0.31 /meal/index.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-01-16T18:20:21+08:00 ] 192.168.0.31 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-01-16T18:20:50+08:00 ] 192.168.0.31 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-01-16T18:21:30+08:00 ] 192.168.0.31 /meal/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-01-16T18:21:30+08:00 ] 192.168.0.31 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+
+[ 2017-01-16T18:53:45+08:00 ] 192.168.0.164 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0006s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0004s ]
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/v1/menu?restaurant_id=): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Error
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 25 行.
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/restaurant/?extras%5B%5D=activity&amp;extras%5B%5D=license&amp;extras%5B%5D=identification&amp;extras%5B%5D=albums&amp;extras%5B%5D=flavors&amp;latitude=23.13324&amp;longitude=113.38605): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 275 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 117 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 117 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-16T18:53:53+08:00 ] 192.168.0.164 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0006s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0005s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0005s ]
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/v1/menu?restaurant_id=): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Error
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 25 行.
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/restaurant/?extras%5B%5D=activity&amp;extras%5B%5D=license&amp;extras%5B%5D=identification&amp;extras%5B%5D=albums&amp;extras%5B%5D=flavors&amp;latitude=23.13324&amp;longitude=113.38605): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 275 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 117 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 117 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-16T18:54:00+08:00 ] 192.168.0.164 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0006s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `meal_user` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `meal_orders` [ RunTime:0.0004s ]
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/v1/menu?restaurant_id=): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Error
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 25 行.
+NOTIC: [2] file_get_contents(http://mainsite-restapi.ele.me/shopping/restaurant/?extras%5B%5D=activity&amp;extras%5B%5D=license&amp;extras%5B%5D=identification&amp;extras%5B%5D=albums&amp;extras%5B%5D=flavors&amp;latitude=23.13324&amp;longitude=113.38605): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 275 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT o.id, o.user_id, o.foodname, o.num, o.price, u.username 
+        			FROM meal_orders o
+        			LEFT JOIN meal_user u ON o.user_id = u.id
+        			WHERE system_id = 117 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 159 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+NOTIC: [8] Undefined index: total /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 177 行.
+SQL: SELECT MAX(id) AS tp_max FROM `meal_system` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, foodname, num, user_id, price
+        			FROM meal_orders
+        			WHERE system_id = 117 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: allTotal /data/hunfu/html/meal/Application/Home/Model/OrdersModel.class.php 第 215 行.
+SQL: SELECT status FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-16T18:57:30+08:00 ] 192.168.0.161 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-01-16T18:57:30+08:00 ] 192.168.0.161 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-01-16T18:57:30+08:00 ] 192.168.0.161 /meal/index.php/Home/Login/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2017-01-16T18:57:43+08:00 ] 192.168.0.161 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `meal_user` WHERE `username` = '蒋康英' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT id, status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+
+[ 2017-01-16T18:57:43+08:00 ] 192.168.0.161 /meal/index.php/Home/Index/merchantMumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-01-16T18:57:44+08:00 ] 192.168.0.161 /meal/index.php/Home/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-01-16T18:58:36+08:00 ] 192.168.0.100 /meal/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+
+[ 2017-01-16T18:58:36+08:00 ] 192.168.0.100 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-01-16T18:58:36+08:00 ] 192.168.0.100 /meal/index.php/Home/Login/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+
+[ 2017-01-16T18:58:38+08:00 ] 192.168.0.100 /meal/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `meal_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `meal_user` WHERE `username` = '凌杰' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT id, status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+
+[ 2017-01-16T18:58:38+08:00 ] 192.168.0.100 /meal/index.php/Home/Index/merchantMumber.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `meal_system` [ RunTime:0.0005s ]
+SQL: SELECT status, merchantmumber FROM meal_system WHERE id = (SELECT MAX(id) FROM meal_system) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-16T18:58:38+08:00 ] 192.168.0.100 /meal/index.php/Home/Index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
